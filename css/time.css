@@ -1,0 +1,16 @@
+.timeStyle{
+	font-size: 700% !important;
+	color: white;
+}
+
+.backStyle{
+	font-size: 200% !important;
+	color: white;
+	top:600px;
+}
+
+
+.mui-bar-nav~.mui-content {
+    padding-top: 40%;
+    padding-left: 10%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<meta http-equiv="content-security-policy">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/shop.css"/>
+	<link rel="stylesheet" href="css/iconfont.css"/>
+	<link rel="stylesheet" href="css/icons-extra.css"/>
+</head>
+
+<body class="bodycolor">
+	
+	<!-- 侧滑导航根容器 -->
+<div class="mui-off-canvas-wrap mui-draggable">
+  <!-- 菜单容器 -->
+  <aside id="showContainer" class="mui-off-canvas-left">
+    <div class="mui-scroll-wrapper">
+      <div class="mui-scroll">
+        <!-- 菜单具体展示内容 -->
+         <ul>
+         	<li>
+         		<a id="userBtn" class="mui-btn btn-outline"><span class="iconfont icon-wo"></span></a>
+         	</li>
+         	<li>
+         		<a id="shopBtn" class="mui-btn btn-outline"><span class="iconfont icon-icon"></span></a>
+         	</li>
+         	<li>
+         		<a id="shareBtn" class="mui-btn btn-outline"><span class="iconfont icon-fenxiang4"></span></a>
+         	</li>
+         </ul>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 主页面容器 -->
+  <div class="mui-inner-wrap">
+    <!-- 主页面标题 -->
+    <header class="mui-bar mui-bar-nav">
+      <a href="#showContainer" class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
+      <span id="moneyVal" class="mui-pull-right numberStyle"></span>
+      <span class="iconfont icon-qiandai mui-pull-right"></span>
+    </header>
+    
+    <div class="mui-content mui-scroll-wrapper">
+      <div class="mui-scroll">
+        <!-- 主界面具体展示内容 -->
+        <div>
+        	<!-- 时间选择器 -->
+			<div class="mui-input-row mui-input-range">
+			    <input type="range" min="1" max="9"  step="1" id="timeSelector" onchange="moveChange()">
+			</div>
+			<!-- 房间 -->
+			<img src="images/house.png"  style="width: 100%;height: 100%; margin-top: 20px;">
+		</div> 
+		
+		<span class="timeStyle" id="timeSelected">6:00</span>
+		<span class="startStyle" id="startClicked">Start!</span>
+		
+		
+
+		
+      </div>
+    </div> 
+  </div>
+</div>
+	
+
+	
+	
+<script src="js/mui.min.js"></script>	
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

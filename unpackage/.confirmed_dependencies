@@ -1,0 +1,87 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/index.css",
+			"images/bacgnd.jpg",
+			"images/cat.png",
+			"js/index.js",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf",
+			"css/icons-extra.css",
+			"js/jquery.min.js",
+			"css/time.css",
+			"css/shop.css",
+			"images/house.png"
+		],
+		"refer": [
+			"home.html",
+			"user.html",
+			"shop.html",
+			"share.html",
+			"time.html",
+			"test.html"
+		]
+	},
+	"home.html": {
+		"resources": [
+			"css/home.css",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"user.html": {
+		"resources": [
+			"css/mui.min.css",
+			"css/user.css",
+			"css/index.css",
+			"css/iconfont.css",
+			"css/icons-extra.css",
+			"js/user.js"
+		],
+		"refer": []
+	},
+	"shop.html": {
+		"resources": [
+			"css/shop.css",
+			"css/mui.min.css",
+			"css/user.css",
+			"css/index.css",
+			"js/shop.js"
+		],
+		"refer": []
+	},
+	"share.html": {
+		"resources": [
+			"css/share.css",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"time.html": {
+		"resources": [
+			"css/share.css",
+			"css/index.css",
+			"css/time.css",
+			"css/mui.min.css",
+			"js/time.js",
+			"css/shop.css",
+			"css/user.css"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"test.html": {
+		"resources": [
+			"css/index.css",
+			"css/time.css",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"css/icons-extra.css",
+			"css/share.css"
+		]
+	}
+}

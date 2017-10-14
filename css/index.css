@@ -1,0 +1,77 @@
+.bodycolor{
+	/*color: #F0AD4E;*/
+	background-color: #a2ebe2;
+}
+
+.mui-content {
+    background-color: #a2ebe2;
+}
+
+
+
+.mui-bar{
+	background-color: #a2ebe2;
+}
+
+a{ 
+    color: #efeff4;
+}
+
+.mui-off-canvas-left, .mui-off-canvas-right {
+    width: 15%;
+    background:#E3E3E3;
+}
+
+ul, menu, dir {
+    -webkit-padding-start: 0%!important; 
+    list-style-type: none;
+}
+
+.mui-icon,.iconfont,.mui-icon-extra{
+	font-size: xx-large !important;
+}
+
+.mui-btn, button{
+	border: 0px solid rgba(204, 204, 204, 0);
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.icon-qiandai{
+	margin-top: 16px!important;
+	color: whitesmoke;
+}
+
+.mui-pull-right{
+	margin-right: 2px!important;
+}
+
+.numberStyle{
+	font-size: 20px;
+	margin-top: 15px;
+	margin-left: 5px;
+	color: #efeff4;
+}
+
+
+
+.mui-bar-nav {
+    box-shadow: 0 1px 6px rgba(204, 204, 204, 0.03);
+}
+
+/*时间选择器*/
+.mui-input-range input[type=range] {
+    top: 260px;
+}
+
+#goodsManagement {
+	margin-bottom: 1px;
+}
+
+body {
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    font-size: 17px;
+    line-height: 21px;
+    color: #f7f7f7;
+    background-color: #efeff4;
+    -webkit-overflow-scrolling: touch;
+}

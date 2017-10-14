@@ -1,0 +1,15 @@
+.timeStyle {
+    font-size: 700% !important;
+    color: white;
+    top: 400px;
+    left: 20%;
+    position: absolute;
+}
+
+.startStyle{
+	font-size: 200% !important;
+    color: white;
+    top: 500px;
+    left: 38%;
+    position: absolute;
+}
